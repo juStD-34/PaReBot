@@ -1,0 +1,37 @@
+{
+  "2506.19356v1": {
+    "title": "WebGuard++:Interpretable Malicious URL Detection via Bidirectional Fusion of HTML Subgraphs and Multi-Scale Convolutional BERT",
+    "authors": [
+      "Ye Tian",
+      "Zhang Yumin",
+      "Yifan Jia",
+      "Jianguo Sun",
+      "Yanbin Wang"
+    ],
+    "summary": "URL+HTML feature fusion shows promise for robust malicious URL detection,\nsince attacker artifacts persist in DOM structures. However, prior work suffers\nfrom four critical shortcomings: (1) incomplete URL modeling, failing to\njointly capture lexical patterns and semantic context; (2) HTML graph sparsity,\nwhere threat-indicative nodes (e.g., obfuscated scripts) are isolated amid\nbenign content, causing signal dilution during graph aggregation; (3)\nunidirectional analysis, ignoring URL-HTML feature bidirectional interaction;\nand (4) opaque decisions, lacking attribution to malicious DOM components. To\naddress these challenges, we present WebGuard++, a detection framework with 4\nnovel components: 1) Cross-scale URL Encoder: Hierarchically learns\nlocal-to-global and coarse to fine URL features based on Transformer network\nwith dynamic convolution. 2) Subgraph-aware HTML Encoder: Decomposes DOM graphs\ninto interpretable substructures, amplifying sparse threat signals via\nHierarchical feature fusion. 3) Bidirectional Coupling Module: Aligns URL and\nHTML embeddings through cross-modal contrastive learning, optimizing\ninter-modal consistency and intra-modal specificity. 4) Voting Module:\nLocalizes malicious regions through consensus voting on malicious subgraph\npredictions. Experiments show WebGuard++ achieves significant improvements over\nstate-of-the-art baselines, achieving 1.1x-7.9x higher TPR at fixed FPR of\n0.001 and 0.0001 across both datasets.",
+    "pdf_url": "http://arxiv.org/pdf/2506.19356v1",
+    "published": "2025-06-24"
+  },
+  "2201.10608v1": {
+    "title": "DOM-LM: Learning Generalizable Representations for HTML Documents",
+    "authors": [
+      "Xiang Deng",
+      "Prashant Shiralkar",
+      "Colin Lockard",
+      "Binxuan Huang",
+      "Huan Sun"
+    ],
+    "summary": "HTML documents are an important medium for disseminating information on the\nWeb for human consumption. An HTML document presents information in multiple\ntext formats including unstructured text, structured key-value pairs, and\ntables. Effective representation of these documents is essential for machine\nunderstanding to enable a wide range of applications, such as Question\nAnswering, Web Search, and Personalization. Existing work has either\nrepresented these documents using visual features extracted by rendering them\nin a browser, which is typically computationally expensive, or has simply\ntreated them as plain text documents, thereby failing to capture useful\ninformation presented in their HTML structure. We argue that the text and HTML\nstructure together convey important semantics of the content and therefore\nwarrant a special treatment for their representation learning. In this paper,\nwe introduce a novel representation learning approach for web pages, dubbed\nDOM-LM, which addresses the limitations of existing approaches by encoding both\ntext and DOM tree structure with a transformer-based encoder and learning\ngeneralizable representations for HTML documents via self-supervised\npre-training. We evaluate DOM-LM on a variety of webpage understanding tasks,\nincluding Attribute Extraction, Open Information Extraction, and Question\nAnswering. Our extensive experiments show that DOM-LM consistently outperforms\nall baselines designed for these tasks. In particular, DOM-LM demonstrates\nbetter generalization performance both in few-shot and zero-shot settings,\nmaking it attractive for making it suitable for real-world application settings\nwith limited labeled data.",
+    "pdf_url": "http://arxiv.org/pdf/2201.10608v1",
+    "published": "2022-01-25"
+  },
+  "physics/9911067v1": {
+    "title": "Full Physical Derivation and Meaning of Lorentz Transformation",
+    "authors": [
+      "A. C. V. Ceapa"
+    ],
+    "summary": "In the line of thought of Einstein's 1905 paper on relativity, I get a\nphysical derivation of Lorentz transformation (LT) answering its main criticism\nand considerably enlarging the area of applications of the theory of\nrelativity.",
+    "pdf_url": "http://arxiv.org/pdf/physics/9911067v1",
+    "published": "1999-11-25"
+  }
+}
